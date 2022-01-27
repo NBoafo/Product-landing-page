@@ -1,18 +1,81 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #fff;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+
+}
+
+#header {
+  background-color: #343A40;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+#header::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #header-img{
-  width: 100px;
+  width: 80px;
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 30px;
+}
+
+nav a {
+  color: #E6E6E3;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #D0B60E;
+}
+
+
 .flex-container {
-display: flex;
+  display: flex;
+  margin-top: 120px;
+}
+
+.product-name {
+  font-size: 48px;
+  font-weight: 500;
+  color: #212529;
+  line-height: 58px;
+}
+
+.product-sub-name {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
 }
 
 /* For desktop: */

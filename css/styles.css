@@ -62,13 +62,13 @@ nav a:hover {
 
 .flex-container {
   display: flex;
-  margin-top: 100px;
+  margin-top: 130px;
   padding-left: 8em;
   padding-bottom: 5em;
 }
 
 .product-description{
-  max-width: 80%;
+  max-width: 90%;
   font-weight: 400;
   line-height: 1.5em;
 }
@@ -88,7 +88,7 @@ nav a:hover {
 }
 
 .main-speaker {
-  margin-right: 10rem;
+  margin-right: 5rem;
   margin-top: -1.5rem;
 }
 
@@ -117,7 +117,7 @@ select:hover {
 select option {
   background-color: #fff;
   text-align: left;
-  padding: 20px;
+  margin-top:-5px !important;
 }
 
 select option:hover {
@@ -126,7 +126,7 @@ select option:hover {
 }
 
 .form-box {
-  background-color: #4d4d4d;;
+  background-color: #E6E6E3;
   padding: 5em;
 }
 
@@ -163,21 +163,132 @@ form {
   outline: none;
 }
 
+.subscribe {
+  padding: 1.3em;
+}
 
 input[type=submit] {
   color: #333;
   background-color: #fcd900;
   border: 1px solid #fcd900;
-  padding: 1.3em;
   border-radius: 0.25rem;
   margin-left: -5px;
   cursor: pointer;
-  
 }
 
 input[type=submit]:hover {
   background-color: #C9AD00;
   border: 1px solid #C9AD00;
+}
+
+
+.the-science-text {
+  margin-top: 35px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  color: #212529;
+}
+
+.the-science-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+  color: #212529;
+}
+
+iframe {
+  display: block;
+  border-style:none;
+}
+
+.vid, iframe {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #777;
+  margin-top: 50px;
+}
+
+#The-Science {
+  padding-bottom: 100px;
+}
+
+.defense {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.the-defense-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  max-width: 34%;
+  margin: auto;
+  color: #212529;
+}
+
+.defense-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  font-size: 16px;
+  padding: 0.6em;
+  color: #212529;
+}
+
+
+#The-ROKIT-G4-Defense-System {
+  background-color: #E6E6E3;
+  padding: 20px;
+}
+
+/* .parent {
+  position: relative;
+}
+
+.child-one{
+  position: absolute
+}
+
+.child-two{
+  position: absolute
+}
+
+.child-three{
+  position: absolute
+}
+
+.child-four{
+  position: absolute
+} */
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.child {
+  flex: 0 25%;
+  height:100px;
+  background:red;
+  border:1px solid green;
+  box-sizing:border-box;
 }
 
 /* For desktop: */

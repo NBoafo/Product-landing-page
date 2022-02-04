@@ -13,9 +13,9 @@ body {
 
 #header {
   background-color: #343A40;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed; 
+  top: 0;
+  width: 100%; 
 }
 
 #header::after {
@@ -157,9 +157,6 @@ form {
   background-color: #fff;
   border-radius: 0.25rem;
   border: 1px solid #ced4da;
-  /* background-clip: padding-box;
-  border: 1px solid #ced4da;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
 }
 
 .form-control:focus {
@@ -263,45 +260,6 @@ iframe {
 .grill {
  margin-left: -25rem;
 }
-
-/* .parent {
-  position: relative;
-}
-
-.child-one{
-  position: absolute
-}
-
-.child-two{
-  position: absolute
-}
-
-.child-three{
-  position: absolute
-}
-
-.child-four{
-  position: absolute
-} */
-
-.parent {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.child {
-  flex: 0 25%;
-  height:100px;
-  background:red;
-  border:1px solid green;
-  box-sizing:border-box;
-}
-
-
-
-
-
 
 
 /* For desktop: */
